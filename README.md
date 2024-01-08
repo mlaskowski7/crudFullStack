@@ -36,13 +36,24 @@ This repository contains a full-stack CRUD (Create, Read, Update, Delete) users 
 ## Project Structure
 
 - **Backend:**
-  - The backend code is organized under the `src` directory with packages for controllers, models, and repositories.
+  - The backend code is organized under the `crud-backend` directory with packages for controllers, models, and repositories.
 
 - **Frontend:**
-  - The React frontend is structured in the `src` directory, with components, styles, and service files.
+  - The React frontend is structured in the `crud-frontend` directory, with components, styles, and service files.
 
 ## Getting Started
 
 1. **Clone the Repository:**
-   ```bash
+   ```
    git clone https://github.com/mlaskowski7/crudFullStack.git
+   ``
+2. **Start Backend Server**
+   open `crud-backend` in IntelliJ Idea or other Java IDE and start Spring Boot
+3. **Start Frontend App**
+  open `crud-frontend` and run in terminal:
+  ```
+  npm install
+  npm start
+  ```
+5. 
+   
