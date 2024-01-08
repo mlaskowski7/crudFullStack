@@ -7,7 +7,7 @@ export default function Navbar() {
       
       <nav className="navbar navbar-expand-lg navbar-dark bg-info">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">CRUD App with Java Spring and React</a>
+          <Link className="navbar-brand" to="/">CRUD App with Java Spring and React</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
